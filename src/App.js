@@ -76,10 +76,11 @@ function App() {
                 </p>
                 <div className="contentButtons">
                   <button className="btLike" onClick={() => handleAddLike(repository.id)}>
-                    <img src="" width="14"/>
+                    <img src="assets/like.png" className="iconButton"/>
                     Curtir
                   </button>
                   <button className="btDelete" onClick={() => handleRemoveRepository(repository.id)}>
+                    <img src="assets/trash.png" className="iconButton"/>
                     Remover
                   </button>
                 </div>
@@ -87,7 +88,10 @@ function App() {
         )}
       </ul>
 
-      <button className="btAdd" onClick={handleAddRepository}>Adicionar repositório</button>
+      <button className="btAdd" onClick={handleAddRepository}>
+        <img src="assets/add.png" className="iconButton"/>
+        Adicionar repositório
+      </button>
     </div>
   );
 }
