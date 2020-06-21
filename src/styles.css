@@ -119,6 +119,11 @@ strong {
   border-radius: 3px;
 }
 
+.btGithub {
+  background-color: black;
+  border-radius: 3px;
+}
+
 .btAdd {
   position: absolute;
   background-color: #2b8c4c;

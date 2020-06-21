@@ -79,6 +79,14 @@ function App() {
                     <img src="assets/like.png" className="iconButton"/>
                     Curtir
                   </button>
+
+                  <a href={repository.url} target="_blank">
+                    <button className="btGithub" onClick={() => {}}>
+                        <img src="assets/github.png" className="iconButton"/>
+                        GitHub
+                    </button>
+                  </a>
+
                   <button className="btDelete" onClick={() => handleRemoveRepository(repository.id)}>
                     <img src="assets/trash.png" className="iconButton"/>
                     Remover
