@@ -1,4 +1,4 @@
-# Mobile com React Native
+# Front-end com ReactJS
 
 Desafio n°3 do bootcamp GoStack, onde tivemos que desenvolver um front-end com os conhecimentos adquiridos durante as aulas do segundo módulo.
 
